@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color:#6ab4d2;
+    color:#062d45;
+    font-family:'Times New Roman', Times, serif;
+
+    min-height: 100vh;
+}
+
+header nav ul li a {
+    color: antiquewhite;
+}
+
+p{
+    border: #c1b6a7;
+    background-color: #faebd7;
+    padding:20px;
+    display:inline-block;
+}
+
+h1 {
+  text-align: center;
+}
+#thirdHeading {
+    text-align: center !important;
+}
+h2{
+    text-align: center;
+}
+
+h4{
+    color:#faebd7
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #062d45;
+    color:#faebd7;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color:#09456a;
+    color:#faebd7
+}
+
+nav ul li a.active {
+background-color: #09456a;
+color:#faead6
+}
+
+
+img {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  float: left;
+  width: 200px;
+  height: auto;
+  margin: 30px;
+}
+
+.center {
+  display: block;
+  width: 50%;
+  float: center;
+}
+
+#poem1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#poem {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-right: 0;
+    width: 25%;
+}
+
+footer {
+    clear: both;       /* This is the key! It moves it below the images */
+    display: block;    /* Ensures it takes up the full width */
+    text-align: center; 
+    background-color: #062d45;
+    color: #faebd7;
+    margin-top: 60px;  /* Pushes it down so it's not touching your art */
+    padding-bottom: 20px;
+}
